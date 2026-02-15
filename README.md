@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/varynx_logo.png" width="140" />
+  <img src="docs/varynx_logo.svg" width="200" />
 </p>
 
 <h1 align="center">VARYNX – Mobile Guardian OS</h1>
@@ -29,20 +29,19 @@ This is a **closed beta** release focused on UI, architecture, and early user fe
 ---
 
 ## 🧠 Architecture
-VARYNX is built on two layers:
 
-### **1. Python Guardian Engine**
+### 1. Python Guardian Engine (`/python`)
 - Modular threat detectors  
 - Background guardian loop  
-- Scoring system  
+- Unified scoring system  
 - Event logging  
 - Bluetooth proximity analysis  
 - Crypto risk evaluation  
 - Overlay detection  
 
-### **2. Android App**
+### 2. Android App (`/android`)
 - Kotlin + Android Studio  
-- GuardianService for background monitoring  
+- `GuardianService` for background monitoring  
 - 15+ screens  
 - Black + blue gradient UI  
 - Real‑time dashboard  
@@ -50,43 +49,26 @@ VARYNX is built on two layers:
 
 ---
 
-## 📸 Screenshots
-See `/screenshots` for full UI previews.
+## 📁 Repository Structure
 
----
-
-## 🛠 Tech Stack
-- **Android:** Kotlin, Jetpack, Services  
-- **Backend Engine:** Python 3  
-- **UI:** XML layouts, custom theme  
-- **Security Modules:** Modular Python detectors  
-
----
-
-## 🧭 Roadmap
-- Real‑time engine → UI integration  
-- Persistent guardian notification  
-- Settings persistence  
-- Onboarding flow  
-- Child Mode enforcement  
-- Lockdown Mode enforcement  
-- Public beta release  
-
----
-
-## 📄 Privacy
-VARYNX does **not** collect, store, or sell personal data.  
-All analysis happens **locally on the device**.
-
-See `docs/privacy.md` for full details.
-
----
-
-## 🧪 Closed Beta
-This repository supports the closed beta release distributed through Google Play Internal Testing.
-
----
-
-## 📬 Contact
-For feedback or collaboration:  
-**varynx.security@proton.me**
+```text
+VARYNX/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+│
+├── android/        # Android Studio project
+├── python/         # Guardian engine (Python)
+├── docs/           # Documentation + logo
+│   ├── overview.md
+│   ├── architecture.md
+│   ├── modules.md
+│   ├── roadmap.md
+│   ├── privacy.md
+│   └── varynx_logo.svg
+└── screenshots/    # UI screenshots
