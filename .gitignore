@@ -1,34 +1,80 @@
-# Gradle files
+# -------------------------
+# ANDROID / KOTLIN
+# -------------------------
+
+# Gradle
 .gradle/
 build/
-
-# Local configuration file (sdk path, etc)
+**/build/
 local.properties
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# Android Studio
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.iml
+*.ipr
+*.iws
 
-# Keystore files
+# Generated files
+captures/
+output.json
+
+# Keystore files (never commit signing keys)
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Logs
+*.log
 
-# Android Profiling
-*.hprof
+# -------------------------
+# PYTHON
+# -------------------------
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Virtual environment folders
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------
+# OS / EDITOR JUNK
+# -------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Vim / Nano / Editors
+*.swp
+*.swo
+*.bak
+*.save
+
+# -------------------------
+# PROJECT-SPECIFIC
+# -------------------------
+
+# Large model files (if any)
+*.gguf
+*.bin
+
+# Backup configs
+*.backup
+*.old
+
+# PDF or large exports
+*.pdf
