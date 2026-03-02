@@ -1,0 +1,24 @@
+# Ignore everything except docs
+*
+
+# Allow these files
+!README.md
+!PRIVACY.md
+!TERMS.md
+!SECURITY.md
+!CHANGELOG.md
+!LICENSE
+!.gitignore
+!.github/
+!.github/**
+!assets/
+!assets/**
+
+# Block any code that might accidentally be added
+*.kt
+*.java
+*.gradle
+*.kts
+*.xml
+*.json
+*.properties
