@@ -97,8 +97,9 @@ Read our full [Privacy Policy](PRIVACY.md).
 
 ## Support
 
-- **Bug Reports**: [Open an Issue](../../issues/new?template=bug_report.md)
-- **Feature Requests**: [Open an Issue](../../issues/new?template=feature_request.md)
+- **Troubleshooting**: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+- **Bug Reports**: [Open an Issue](https://github.com/M4urk/VARYNX/issues/new?template=bug_report.md)
+- **Feature Requests**: [Open an Issue](https://github.com/M4urk/VARYNX/issues/new?template=feature_request.md)
 - **Security Issues**: See [SECURITY.md](SECURITY.md)
 
 ---
