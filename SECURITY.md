@@ -7,7 +7,7 @@ We take security seriously. If you discover a vulnerability, please report it re
 ### How to Report
 
 1. **DO NOT** open a public GitHub issue
-2. Email: security@varynx.com
+2. Email: varynx.contact@gmail.com 
 3. Include:
    - Description of the vulnerability
    - Steps to reproduce
