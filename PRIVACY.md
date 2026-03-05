@@ -61,7 +61,7 @@ We may update this policy occasionally. Changes will be noted with an updated "L
 
 ## Contact
 
-For privacy questions, contact: privacy@varynx.com
+For privacy questions, contact: varynx.contact@gmail.com 
 
 ---
 
