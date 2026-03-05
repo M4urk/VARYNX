@@ -24,6 +24,7 @@ You may not:
 VARYNX is offered as a subscription service:
 - Free 7-day trial (no payment required)
 - Monthly subscription after trial period
+- Yearly subscription will be offered.
 - Cancel anytime via Google Play
 
 ## Disclaimer
@@ -46,7 +47,7 @@ These terms are governed by applicable law in your jurisdiction.
 
 ## Contact
 
-Questions about these terms: legal@varynx.com
+Questions about these terms: varynx.contact@gmail.com 
 
 ---
 
