@@ -7,10 +7,13 @@ assignees: ''
 ---
 
 ## Problem
-What problem would this solve?
+<!-- What problem would this solve? -->
 
-## Solution
-Your idea for how to solve it.
+## Proposed Solution
+<!-- Your idea for how to solve it. -->
+
+## Alternatives Considered
+<!-- Any other approaches you thought of? -->
 
 ## Privacy Consideration
-Would this require new permissions or data access?
+<!-- Would this require new permissions or data access? Would it affect the offline-only guarantee? -->
